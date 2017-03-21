@@ -1,0 +1,105 @@
+@media screen and (max-width: 1224px){
+    .column {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1016px){
+
+/*---------NAV---------*/
+
+    nav {
+        margin: 0 auto;
+        border-radius: 6px;
+
+    }
+    nav ul { margin: 0; padding: 0; border-radius: 6px; background: #6466c6; }
+    nav ul li { display: block; list-style: none outside; position: relative; margin-right: 0;}
+    nav > ul > li > ul > li li:nth-child(2) a { border-top-left-radius: 6px; border-top-right-radius: 6px; }
+    nav > ul { margin-top: 1em; }
+    nav > ul ul { display: none; position: static; }
+    nav li:hover > ul { display: block; }
+
+    nav > ul > li { float: none; }
+    nav > ul > li > a { border-radius: 0;}
+    nav > ul > li ul { padding: 0 0 0 3em; width: 100%; box-sizing: border-box;}
+    nav > ul > li > ul > li ul { padding: 0 0 0 3em; width: 100%; box-sizing: border-box;}
+
+    nav > ul > li { box-shadow: none; border-radius: 0; }
+    nav ul li a { display: block; background: none; color: #FFF; padding: 5px 25px; text-transform: uppercase; font-weight: 100;}
+
+    nav ul li:hover > a { background: #1a1b4e; border-radius: 6px;}
+
+    nav > ul > li > ul >li:first-child > a::after{
+        font-family: FontAwesome, serif;
+        margin-left: 10px;
+        /*font-size: 18px;*/
+        content: "\f0d7";
+    }
+
+    nav > ul > li:nth-child(2):hover ul{
+        display: block;
+    }
+
+    /*-------HEADER-----------*/
+
+.header h1 {text-align: center;}
+    .header p {
+        display: none;
+    }
+    .corner .search {
+        display: none;
+    }
+    .corner button {
+        position: static;
+        width: 100%;
+    }
+
+    /*-------Featuered------*/
+
+    .featured .wrapper {
+        padding: 0.5em;
+    }
+
+    .featured h1 {
+        font-size: 2.2em;
+    }
+    .featured {
+        background: url(../img/Untitled.png) no-repeat;
+        background-size: cover;
+    }
+    .featured .title-wrap {
+        width: 100%;
+        margin: 3em auto;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 800px){
+
+    /*-------Featuered------*/
+
+    .featured .title-wrap {
+        width: 100%;
+        margin: 1em auto;
+    }
+    .lead-buttons ul li {
+        width: 100%;
+        margin-bottom: 0.5em;
+        background: rgba(0,0,0,0.8);
+
+    }
+    .lead-buttons ul li:first-child{
+        border: none;
+    }
+    .column {
+        float: left;
+        width: 100%;
+    }
+}
