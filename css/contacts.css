@@ -12,15 +12,16 @@ body{
     background: #d9fff5;
     display: inline-block;
     padding: 10px;
-    font-size: 17px;
+    font-size: 13px;
     margin-left: 10px;
+    line-height: 12px;
 }
 
 #map{
     display: inline-block;
     vertical-align: top;
     width:65%;
-    height:650px;
+    height:360px;
 
 }
 
@@ -31,7 +32,7 @@ body{
     vertical-align: top;
 }
 .contact-form label{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact-div{
@@ -39,27 +40,28 @@ body{
 }
 
 .contact-div-textarea{
-    margin: 10px;
-    width: 40%;
+    margin-top: 20px;
+    width: 45%;
     display: inline-block;
 }
 .contact-div-textarea label{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact-input{
     width: 80%;
     padding: 15px;
     border-radius: 8px;
-    outline-color:  #333333;
+    outline: none;
 
 }
 .contact-textarea{
     width: 80%;
+    height: 180px;
     border-radius: 8px;
     padding: 15px;
     resize: none;
-    outline-color:  #333333;
+    outline: none;
 }
 
 .contact-send{
