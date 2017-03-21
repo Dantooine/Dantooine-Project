@@ -2,13 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Contact Us</title>
+    <title>Wrappers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/typography.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/navigation.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/gallery.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="css/contacts.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 
@@ -55,62 +56,16 @@
     </div>
 </div>
 
-<div class="main">
+<div class="main-plan">
     <div class="wrapper">
-    <h1 class="contact-h1">Намерете ни</h1>
-    <div class="contact-ifo">
-        <h2>София, кв. Изгрев, ул. "Тинтява" 15-17, етаж 1</h2>
-        <p>Работно време:</p>
-        <p>10:00 - 20:00 (Понеделник - Петък)</p>
-        <p>09:00 - 18:00 (Събота и Неделя)</p>
-        <p>Телефон:</p>
-        <p>+359 899 55 55 92</p>
-        <p>Пощенски код:</p>
-        <p>1113</p>
-        <p>Имейл:</p>
-        <a href="#">info@bbv.bg</a>
-    </div>
+        <p><span style="font-weight: bold; font-size: 16px;"> Първо, научете английски език! </span></p>
+        <p><span style="font-weight: bold; font-size: 16px;"> Който не знае английски език, е неграмотен и да се връща в храсталаците!</span> (Наков)</p>
 
-    <div id="googleMap" ></div>
 
-    <script>
-        function myMap() {
-            var mapProp= {
-                center:new google.maps.LatLng(42.666664,23.351225),
-                zoom:16,
-            };
-            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW9V357K_IgyiLebJdXdhSKmr85M1_qVg&callback=myMap"></script>
-    <h1 class="contact-h1">Пишете ни</h1>
-    <form class="contact-form">
-        <div class="contact-div">
-        <label for="taitle">Заглавие</label>
-            <br>
-            <input class="contact-input" type="text" id="taitle" placeholder="Заглавие">
-        </div>
-        <br>
-        <div class="contact-div">
-        <label>
-            Имейл адрес<br>
-            <input class="contact-input" type="email" placeholder="Имейл адрес" required/>
-        </label>
-        </div>
-        <br>
-        <div class="contact-div-textarea">
-        <label>
-            Съдържание<br>
-            <textarea class="contact-textarea" name="" id="" cols="30" rows="10" placeholder="Съдържание"></textarea>
-        </label>
-        </div>
-        <div class="contact-div-send">
-        <button class="contact-send">Send</button>
-        </div>
-    </form>
     </div>
 </div>
-    <div class="footer">
+
+<div class="footer">
     <div class="wrapper">
         <div class="footer-column">
             <a href="#">Кандидатствай!</a>
@@ -123,5 +78,6 @@
         </div>
     </div>
 </div>
+
 </body>
-    </html>
+</html>

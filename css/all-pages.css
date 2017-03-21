@@ -1,4 +1,25 @@
 
+
+/*--------ABOUT-HISTORY--------*/
+
+.main-history .wrapper img {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+.main-history .wrapper {
+    text-align: center;
+}
+.main-history .wrapper h2{
+    padding-bottom: 1em;
+}
+.main-history .wrapper p{
+    font-size: 16px;
+}
+
+
+/*-------*/
+
 article{
     background: #d9fff5;
     margin: 20px;
